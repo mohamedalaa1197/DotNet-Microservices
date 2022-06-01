@@ -41,7 +41,7 @@ namespace Discount.API.Repositories
 
             var result = await connection.ExecuteAsync
                 (
-                    "INSERT INTO public.coupone (ProductName, Description, Amount) VALUES (@ProductName, @Description, @Amount)",
+                    "INSERT INTO public.coupon (ProductName, Description, Amount) VALUES (@ProductName, @Description, @Amount)",
                     new { ProductName = coupon.ProductName, Description = coupon.Description, Amount = coupon.Amount }
                 );
 
@@ -55,7 +55,7 @@ namespace Discount.API.Repositories
 
             var result = await connection.ExecuteAsync
                 (
-                    "DELETE FROM public.coupone WHERE ProductName=@ProductName",
+                    "DELETE FROM public.coupon WHERE ProductName=@ProductName",
                     new
                     {
                         ProductName = productName,
@@ -74,7 +74,7 @@ namespace Discount.API.Repositories
 
             var result = await connection.ExecuteAsync
                 (
-                    "UPDATE public.coupone SET  productname =@ProductName, description =@Description, amount =@Amount WHERE Id=@Id",
+                    "UPDATE public.coupon SET  productname =@ProductName, description =@Description, amount =@Amount WHERE Id=@Id",
                     new
                     {
                         ProductName = coupon.ProductName,

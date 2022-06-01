@@ -43,7 +43,7 @@ namespace Discount.API.Controllers
             try
             {
                 var result = await _discountRepository.CreateDiscount(coupon);
-                return CreatedAtRoute("GetDiscount", new { productName = coupon.ProductName });
+                return Ok(result);
             }
             catch (Exception ex)
             {
