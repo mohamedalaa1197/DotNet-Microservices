@@ -41,13 +41,13 @@ namespace Catalog.API.Controllers
             }
         }
 
-        [HttpGet("{Id}", Name = "GetProduct")]
+        [HttpGet("{id}", Name = "GetProduct")]
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<Product>> GetProductById(string Id)
+        public async Task<ActionResult<Product>> GetProductById(string id)
         {
             try
             {
-                var product = await _productRepository.GetProductById(Id);
+                var product = await _productRepository.GetProductById(id);
                 return Ok(product);
             }
             catch (Exception ex)
@@ -120,6 +120,5 @@ namespace Catalog.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
     }
 }
