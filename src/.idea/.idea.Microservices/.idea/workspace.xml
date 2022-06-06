@@ -11,13 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Entities/Coupon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Extensions/HostExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Protos/discount.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Repositories/DiscountRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Repositories/IDiscountRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Controllers/CatalogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Controllers/CatalogController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Repositories/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Repositories/ProductRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Discount/Discount.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/Discount.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +34,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AAK1o2fquVdBWPdCFt4FQ2HtMA" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.dicount.gRPC">
     <configuration name="Catalog.API: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Catalog.API.csproj" />
@@ -135,8 +141,18 @@
       <updated>1654446736921</updated>
       <workItem from="1654446741568" duration="3309000" />
       <workItem from="1654450854348" duration="2200000" />
-      <workItem from="1654463003915" duration="911000" />
+      <workItem from="1654463003915" duration="1287000" />
+      <workItem from="1654501325106" duration="200000" />
+      <workItem from="1654534310723" duration="2633000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Grpc project and configure it">
+      <created>1654464179595</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654464179595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +173,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Adding Grpc project and configure it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Grpc project and configure it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -173,6 +191,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Extensions/HostExtensions.cs</url>
+          <line>12</line>
+          <properties documentPath="C:\Users\moham\RiderProjects\DotNet-Microservices\src\Microservices\Discount\dicount.gRPC\Extensions\HostExtensions.cs" initialLine="12" containingFunctionPresentation="method 'MigrateDatabase'">
+            <startOffsets>
+              <option value="370" />
+            </startOffsets>
+            <endOffsets>
+              <option value="371" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
