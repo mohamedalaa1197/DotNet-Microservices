@@ -10,11 +10,9 @@
     <projectFile profileName="dicount.gRPC">Microservices/Discount/dicount.gRPC/dicount.gRPC.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="Create Services and proto for discount Grpc">
-      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Helpers/Mapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" afterDir="false" />
+    <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Protos/discount.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Protos/discount.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +140,9 @@
       <workItem from="1654463003915" duration="1287000" />
       <workItem from="1654501325106" duration="200000" />
       <workItem from="1654534310723" duration="4325000" />
-      <workItem from="1654541574650" duration="1563000" />
+      <workItem from="1654541574650" duration="1783000" />
+      <workItem from="1654586530883" duration="11000" />
+      <workItem from="1654708196319" duration="1998000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Grpc project and configure it">
       <created>1654464179595</created>
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654537712774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement Grpc Services (Get)">
+      <created>1654543331908</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654543331908</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +188,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Adding Grpc project and configure it" />
     <MESSAGE value="Create Services and proto for discount Grpc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Services and proto for discount Grpc" />
+    <MESSAGE value="Implement Grpc Services (Get)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Grpc Services (Get)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
