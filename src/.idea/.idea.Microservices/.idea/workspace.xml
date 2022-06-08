@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +141,8 @@
       <workItem from="1654534310723" duration="4325000" />
       <workItem from="1654541574650" duration="1783000" />
       <workItem from="1654586530883" duration="11000" />
-      <workItem from="1654708196319" duration="1998000" />
+      <workItem from="1654708196319" duration="2067000" />
+      <workItem from="1654717430512" duration="2034000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Grpc project and configure it">
       <created>1654464179595</created>
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654543331908</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding CRUD operations using Grpc">
+      <created>1654711647881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654711647881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +196,8 @@
     <MESSAGE value="Adding Grpc project and configure it" />
     <MESSAGE value="Create Services and proto for discount Grpc" />
     <MESSAGE value="Implement Grpc Services (Get)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement Grpc Services (Get)" />
+    <MESSAGE value="Adding CRUD operations using Grpc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding CRUD operations using Grpc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
