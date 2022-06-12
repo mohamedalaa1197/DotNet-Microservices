@@ -2,7 +2,6 @@ using System.Threading.Tasks;
 using AutoMapper;
 using dicount.gRPC.Entities;
 using dicount.gRPC.Repositories;
-using discount.gRPC.Protos;
 using Grpc.Core;
 using Microsoft.Extensions.Logging;
 
@@ -33,6 +32,7 @@ namespace dicount.gRPC.Services
 
             return _mapper.Map<CouponModel>(coupon);
         }
+
 
         public override async Task<CouponModel> CreateDiscount(createDiscountRequest request, ServerCallContext context)
         {

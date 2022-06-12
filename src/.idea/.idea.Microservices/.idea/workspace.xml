@@ -12,6 +12,16 @@
   <component name="ChangeListManager">
     <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Basket.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Basket.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Controllers/BasketController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Controllers/BasketController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Entities/ShoppingCartItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Entities/ShoppingCartItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Catalog/Catalog.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Discount/Discount.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/Discount.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Protos/discount.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Protos/discount.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Discount/dicount.gRPC/Services/DiscountService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +152,8 @@
       <workItem from="1654541574650" duration="1783000" />
       <workItem from="1654586530883" duration="11000" />
       <workItem from="1654708196319" duration="2067000" />
-      <workItem from="1654717430512" duration="2034000" />
+      <workItem from="1654717430512" duration="2452000" />
+      <workItem from="1655052587007" duration="587000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Grpc project and configure it">
       <created>1654464179595</created>
