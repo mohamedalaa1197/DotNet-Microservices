@@ -17,12 +17,12 @@ namespace Basket.API.Entities
         }
         public string UserName { get; set; }
         public ICollection<ShoppingCartItem> Items { get; set; }
-        public decimal totalPrice { get; set; }
+        public double totalPrice { get => TotalPrice(Items); }
 
 
-        private decimal TotalPrice(ICollection<ShoppingCartItem> items)
+        private double TotalPrice(ICollection<ShoppingCartItem> items)
         {
-            decimal totalPrice = 0;
+            double totalPrice = 0;
             foreach (var item in items)
             {
                 totalPrice += item.Price * item.Quantity;

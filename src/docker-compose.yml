@@ -34,10 +34,17 @@ services:
       context: .
       dockerfile: Microservices/Discount/Discount.API/Dockerfile
 
+  dicount.grpc:
+    image: ${DOCKER_REGISTRY-}dicountgrpc
+    build:
+      context: .
+      dockerfile: Microservices/Discount/dicount.gRPC/Dockerfile
+
 volumes:
   mongo_data:
   portainer_data:
   postgres_data:
   pgadmin_data:
+
 
 
