@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dicount.gRPC", "Microservic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{0EF7F98D-964F-4723-B10F-2E652B2DBEDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Microservices\Ordering\Ordering.API\Ordering.API.csproj", "{C89843C6-C9D7-4C24-BC64-DA1D299A6544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Microservices\Ordering\Ordering.API\Ordering.API.csproj", "{C89843C6-C9D7-4C24-BC64-DA1D299A6544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Microservices\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{EA6F2E9A-480A-4F6D-B64E-319FB67AF049}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Microservices\Ordering\Ordering.Application\Ordering.Application.csproj", "{FEAA2F1E-4B3A-4A22-BA7B-43919A9E9595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Microservices\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{FF7B7BA1-EB31-4774-B328-642403F3B267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,18 @@ Global
 		{C89843C6-C9D7-4C24-BC64-DA1D299A6544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C89843C6-C9D7-4C24-BC64-DA1D299A6544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C89843C6-C9D7-4C24-BC64-DA1D299A6544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA6F2E9A-480A-4F6D-B64E-319FB67AF049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6F2E9A-480A-4F6D-B64E-319FB67AF049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6F2E9A-480A-4F6D-B64E-319FB67AF049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6F2E9A-480A-4F6D-B64E-319FB67AF049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAA2F1E-4B3A-4A22-BA7B-43919A9E9595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAA2F1E-4B3A-4A22-BA7B-43919A9E9595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAA2F1E-4B3A-4A22-BA7B-43919A9E9595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAA2F1E-4B3A-4A22-BA7B-43919A9E9595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7B7BA1-EB31-4774-B328-642403F3B267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7B7BA1-EB31-4774-B328-642403F3B267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7B7BA1-EB31-4774-B328-642403F3B267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7B7BA1-EB31-4774-B328-642403F3B267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +87,9 @@ Global
 		{0AD4BA7C-28C8-450A-ACA6-A7EE55EA9029} = {D214A239-F2EC-4F0A-9361-8E2E6949E8FF}
 		{0EF7F98D-964F-4723-B10F-2E652B2DBEDA} = {D6394622-19FA-4C4B-99B1-23AF16CE0E38}
 		{C89843C6-C9D7-4C24-BC64-DA1D299A6544} = {0EF7F98D-964F-4723-B10F-2E652B2DBEDA}
+		{EA6F2E9A-480A-4F6D-B64E-319FB67AF049} = {0EF7F98D-964F-4723-B10F-2E652B2DBEDA}
+		{FEAA2F1E-4B3A-4A22-BA7B-43919A9E9595} = {0EF7F98D-964F-4723-B10F-2E652B2DBEDA}
+		{FF7B7BA1-EB31-4774-B328-642403F3B267} = {0EF7F98D-964F-4723-B10F-2E652B2DBEDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A39F76BC-E2B8-495F-9DE4-2748C423BCA4}
