@@ -10,13 +10,13 @@ namespace Ordering.Application
     {
         public static IServiceCollection RegisterServices(this IServiceCollection services)
         {
+
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehviour<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehviour<,>));
-
 
             return services;
         }
