@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using StackExchange;
 using System;
+using MassTransit;
 
 namespace Basket.API
 {
@@ -37,6 +38,16 @@ namespace Basket.API
 
             services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
                 (o => o.Address = new Uri(Configuration["GrpcSettings:DiscountUrl"]));
+
+            services.AddMassTransit(config =>
+            {
+                config.UsingRabbitMq((context, conf) =>
+                {
+                    conf.Host(Configuration.GetValue<string>("EventBusSettings:HostAddress"));
+                });
+            });
+
+            services.AddMassTransitHostedService();
 
             services.AddScoped<DiscountGrpcServices>();
         }
