@@ -1,6 +1,8 @@
-﻿using Basket.API.Entities;
+﻿using AutoMapper;
+using Basket.API.Entities;
 using Basket.API.GrpcServices;
 using Basket.API.Repositories;
+using EventBus.Message.Events;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -17,10 +19,14 @@ namespace Basket.API.Controllers
     {
         private readonly IBasketRepository _basketRepository;
         private readonly DiscountGrpcServices _discountGrpcServices;
-        public BasketController(IBasketRepository basketRepository, DiscountGrpcServices discountGrpcServices)
+        private readonly IMapper _mapper;
+
+        public BasketController(IBasketRepository basketRepository,
+            DiscountGrpcServices discountGrpcServices, IMapper mapper)
         {
             _basketRepository = basketRepository;
             _discountGrpcServices = discountGrpcServices;
+            _mapper = mapper;
         }
 
 
@@ -71,6 +77,27 @@ namespace Basket.API.Controllers
             {
                 return BadRequest("Some thing bad happened");
             }
+
+        }
+
+        [HttpPost("[action]")]
+        [ProducesResponseType((int)HttpStatusCode.Accepted)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> Checkout(CheckoutBasket checkoutBasketPayload)
+        {
+            // Get the basket for this user, to create an order with the items in it.
+            var basket = await _basketRepository.GetBasket(checkoutBasketPayload.UserName);
+            if (basket is null) return BadRequest();
+
+            // mapping the payload to the evnet payload
+            var eventMapper = _mapper.Map<BasketCheckoutEvent>(checkoutBasketPayload);
+
+
+            // Remove the basket after sending the event to order MS
+            await _basketRepository.DeleteBasket(UserName: checkoutBasketPayload.UserName);
+
+
+            return Accepted();
 
         }
     }
