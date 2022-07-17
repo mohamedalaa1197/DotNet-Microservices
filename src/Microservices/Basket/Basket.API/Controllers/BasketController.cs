@@ -92,6 +92,7 @@ namespace Basket.API.Controllers
 
             // mapping the payload to the evnet payload
             var eventMessage = _mapper.Map<BasketCheckoutEvent>(checkoutBasketPayload);
+            eventMessage.TotalPrice = (decimal)basket.totalPrice;
             await _publishEndpoint.Publish(eventMessage);
 
             // Remove the basket after sending the event to order MS
