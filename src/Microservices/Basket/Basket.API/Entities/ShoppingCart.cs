@@ -17,17 +17,28 @@ namespace Basket.API.Entities
         }
         public string UserName { get; set; }
         public ICollection<ShoppingCartItem> Items { get; set; }
-        public double totalPrice { get => TotalPrice(Items); }
+        public double totalPrice
+        {
+            get
+            {
+                var totoal = TotalPrice(Items);
+                return totoal;
+            }
+        }
 
 
         private double TotalPrice(ICollection<ShoppingCartItem> items)
         {
-            double totalPrice = 0;
-            foreach (var item in items)
+            if (items != null)
             {
-                totalPrice += item.Price * item.Quantity;
+                double total = 0;
+                foreach (var item in items)
+                {
+                    total += item.Price * item.Quantity;
+                }
+                return total;
             }
-            return totalPrice;
+            return 0;
         }
     }
 

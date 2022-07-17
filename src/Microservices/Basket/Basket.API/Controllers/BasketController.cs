@@ -3,6 +3,7 @@ using Basket.API.Entities;
 using Basket.API.GrpcServices;
 using Basket.API.Repositories;
 using EventBus.Message.Events;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Net;
@@ -17,13 +18,16 @@ namespace Basket.API.Controllers
         private readonly IBasketRepository _basketRepository;
         private readonly DiscountGrpcServices _discountGrpcServices;
         private readonly IMapper _mapper;
+        private readonly IPublishEndpoint _publishEndpoint;
 
         public BasketController(IBasketRepository basketRepository,
-            DiscountGrpcServices discountGrpcServices, IMapper mapper)
+            DiscountGrpcServices discountGrpcServices, IMapper mapper
+            , IPublishEndpoint publishEndpoint)
         {
             _basketRepository = basketRepository;
             _discountGrpcServices = discountGrpcServices;
             _mapper = mapper;
+            _publishEndpoint = publishEndpoint;
         }
 
 
@@ -87,15 +91,13 @@ namespace Basket.API.Controllers
             if (basket is null) return BadRequest();
 
             // mapping the payload to the evnet payload
-            var eventMapper = _mapper.Map<BasketCheckoutEvent>(checkoutBasketPayload);
-
+            var eventMessage = _mapper.Map<BasketCheckoutEvent>(checkoutBasketPayload);
+            await _publishEndpoint.Publish(eventMessage);
 
             // Remove the basket after sending the event to order MS
             await _basketRepository.DeleteBasket(UserName: checkoutBasketPayload.UserName);
 
-
             return Accepted();
-
         }
     }
 }
