@@ -105,13 +105,13 @@ namespace Catalog.API.Controllers
             }
         }
 
-        [HttpDelete("{Id}", Name = "DeleteProduct")]
+        [HttpDelete("{id}", Name = "DeleteProduct")]
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.OK)]
-        public async Task<IActionResult> DeleteProduct(string productId)
+        public async Task<IActionResult> DeleteProduct(string id)
         {
             try
             {
-                var result = await _productRepository.DeleteProduct(productId);
+                var result = await _productRepository.DeleteProduct(id);
                 return Ok(result);
             }
             catch (Exception ex)
