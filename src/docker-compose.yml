@@ -52,11 +52,18 @@ services:
       context: .
       dockerfile: Microservices/Ordering/Ordering.API/Dockerfile
 
+  apigatway:
+    image: ${DOCKER_REGISTRY-}apigatway
+    build:
+      context: .
+      dockerfile: APIGatWay/APIGatWay/Dockerfile
+
 volumes:
   mongo_data:
   portainer_data:
   postgres_data:
   pgadmin_data:
+
 
 
 

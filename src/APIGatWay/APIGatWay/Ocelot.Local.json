@@ -1,8 +1,8 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "api/v1/Catalog",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/v1/Catalog",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -10,11 +10,12 @@
         }
       ],
       "UpstreamPathTemplate": "/catalog",
-      "UpstreamHttpMethod": [ "Get", "POST", "PUT" ]
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT" ],
+     "FileCacheOptions": {"TtlSeconds": 30}
     },
     {
-      "DownstreamPathTemplate": "api/v1/Catalog/{id}",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/v1/Catalog/{id}",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -25,8 +26,8 @@
       "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
     },
     {
-      "DownstreamPathTemplate": "api/v1/Catalog/category/{category}",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/v1/Catalog/category/{category}",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -37,8 +38,8 @@
       "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
     },
     {
-      "DownstreamPathTemplate": "api/v1/Basket/{userName}",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/v1/Basket/{userName}",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -49,8 +50,8 @@
       "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
     },
     {
-      "DownstreamPathTemplate": "api/v1/Basket",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/v1/Basket",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -61,8 +62,8 @@
       "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
     },
     {
-      "DownstreamPathTemplate": "api/v1/Basket/Checkout",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/api/v1/Basket/Checkout",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
@@ -70,10 +71,17 @@
         }
       ],
       "UpstreamPathTemplate": "/basket/Checkout",
-      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
+      "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "3s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5010"
+    "BaseUrl": "http://localhost:5010"
   }
 }
