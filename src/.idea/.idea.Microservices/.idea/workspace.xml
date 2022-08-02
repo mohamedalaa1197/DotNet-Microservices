@@ -17,19 +17,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Extensions/HttpClientExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Models/BasketItemExtendModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Models/BasketModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Models/CatalogModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Models/OrderResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Models/ShoppingModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Contracts/IBasketService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Contracts/ICatalogService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Contracts/IOrderService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/CatalogService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Microservices.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/APIGatWay/Ocelot.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/APIGatWay/Ocelot.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Extensions/HttpClientExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Extensions/HttpClientExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/BasketService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/BasketService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/CatalogService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/CatalogService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/OrderService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

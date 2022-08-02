@@ -58,7 +58,7 @@
           "Port": "80"
         }
       ],
-      "UpstreamPathTemplate": "/basket}",
+      "UpstreamPathTemplate": "/basket",
       "UpstreamHttpMethod": [ "Get", "POST", "PUT", "DELETE" ]
     },
     {

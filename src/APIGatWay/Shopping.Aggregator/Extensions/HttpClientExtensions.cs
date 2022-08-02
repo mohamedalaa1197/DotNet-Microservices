@@ -14,7 +14,7 @@ namespace Shopping.Aggregator.Extensions
 
             var dataString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
             return JsonSerializer.Deserialize<T>(dataString,
-                new JsonSerializerOptions() { PropertyNameCaseInsensitive = false });
+                new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
     }
 }
