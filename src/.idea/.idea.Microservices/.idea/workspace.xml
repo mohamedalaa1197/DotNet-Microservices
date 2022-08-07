@@ -18,11 +18,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/APIGatWay/Ocelot.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/APIGatWay/Ocelot.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Extensions/HttpClientExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Extensions/HttpClientExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/BasketService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/BasketService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/CatalogService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/CatalogService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/OrderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Shopping.Aggregator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Shopping.Aggregator.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
         <entry key="$PROJECT_DIR$/.." value="disount-Ms" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/BasketService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -252,6 +256,8 @@
       <workItem from="1654717430512" duration="2452000" />
       <workItem from="1655052587007" duration="587000" />
       <workItem from="1659371158769" duration="4199000" />
+      <workItem from="1659876923641" duration="632000" />
+      <workItem from="1659879202740" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Grpc project and configure it">
       <created>1654464179595</created>
