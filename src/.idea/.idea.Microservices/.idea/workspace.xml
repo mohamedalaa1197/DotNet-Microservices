@@ -14,16 +14,35 @@
     <projectFile profileName="APIGatWay">APIGatWay/APIGatWay/APIGatWay.csproj</projectFile>
     <projectFile profileName="IIS Express">APIGatWay/Shopping.Aggregator/Shopping.Aggregator.csproj</projectFile>
     <projectFile profileName="Shopping.Aggregator">APIGatWay/Shopping.Aggregator/Shopping.Aggregator.csproj</projectFile>
+    <projectFile profileName="AspnetRunBasics">WebApps/AspnetRunBasics/AspnetRunBasics.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdee2c61-2f1e-4dff-bb0f-445bac2d553b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Microservices/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Shopping.Aggregator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Shopping.Aggregator.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.override.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.override.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Entities/ShoppingCart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/Entities/ShoppingCart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Microservices/Basket/Basket.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Microservices/Basket/Basket.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Models/BasketModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Models/BasketModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Cart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Cart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Cart.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Cart.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/CheckOut.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/CheckOut.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/CheckOut.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/CheckOut.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Order.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Order.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Product.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Product.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Product.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Product.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/ProductDetail.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/ProductDetail.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Shared/_ProductItemPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Shared/_ProductItemPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Shared/_TopProductPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Shared/_TopProductPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/BasketService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/BasketService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/CatalogService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/CatalogService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/OrderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/OrderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApps/AspnetRunBasics/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApps/AspnetRunBasics/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +57,15 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/211f827810ec6b83cb63678320c3965d617ca1f8e798b3ea5eb241e40f630c3/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3d2e30ad698c5172f36ac44a268355d942526236d5c48ee3fd8e91028d66a/JsonSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/47cb1bfc29fe6f51c0eb1510cdc23b246b62e0606fd09abd26c6251e246c1e/ActionResultOfT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/53f9e515c2f25cbfebc0c91032e1ac90bf43803231b27f30777a3cdb7c9/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/697050deb22a2642d1f1311dc2abbff272e4d5575d8f69d97af9f902d985b27/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ed6f5e3b5f78ae215ce2f37f9ca779fea6e31feb6dfdf8b5683b9b27ba54/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/975d75ded5e4b45ff64afb5da8e8d2f44f78747516a7bb0df3dc74f1cfa94cb/Host.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9e325937c7b5397e4f34a9dd155c84aad8a6231927a9ead6d2d8de893fbee6/AsyncValueTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ac69bb5e4f85e56a9e4add4bfc66aaff21831b4a525119ac4111e2443436ac/HostBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APIGatWay/Shopping.Aggregator/Services/Implementaion/BasketService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -65,7 +93,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Ordering.API">
+  <component name="RunManager" selected=".NET Launch Settings Profile.AspnetRunBasics">
     <configuration name="APIGatWay" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/APIGatWay/APIGatWay/APIGatWay.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -85,6 +113,21 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/APIGatWay/APIGatWay/APIGatWay.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="AspnetRunBasics" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApps/AspnetRunBasics/AspnetRunBasics.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="AspnetRunBasics" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -217,6 +260,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue=".NET Launch Settings Profile.AspnetRunBasics" />
       <item itemvalue=".NET Launch Settings Profile.APIGatWay" />
       <item itemvalue=".NET Launch Settings Profile.APIGatWay: IIS Express" />
       <item itemvalue=".NET Launch Settings Profile.Ordering.API" />
@@ -230,8 +274,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue=".NET Launch Settings Profile.Discount.API: IIS Express (1)" />
         <item itemvalue=".NET Launch Settings Profile.Discount.API: IIS Express" />
+        <item itemvalue=".NET Launch Settings Profile.Discount.API: IIS Express (1)" />
         <item itemvalue=".NET Launch Settings Profile.Catalog.API: IIS Express" />
         <item itemvalue=".NET Launch Settings Profile.Discount.API: IIS Express" />
       </list>
@@ -258,6 +302,7 @@
       <workItem from="1659371158769" duration="4199000" />
       <workItem from="1659876923641" duration="632000" />
       <workItem from="1659879202740" duration="225000" />
+      <workItem from="1660045251455" duration="11276000" />
     </task>
     <task id="LOCAL-00001" summary="Adding Grpc project and configure it">
       <created>1654464179595</created>
@@ -343,7 +388,116 @@
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApps/AspnetRunBasics/Pages/Index.cshtml.cs</url>
+          <line>30</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\WebApps\AspnetRunBasics\Pages\Index.cshtml.cs" initialLine="30" containingFunctionPresentation="method 'OnPostAddToCartAsync'">
+            <startOffsets>
+              <option value="958" />
+            </startOffsets>
+            <endOffsets>
+              <option value="959" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Microservices/Basket/Basket.API/Controllers/BasketController.cs</url>
+          <line>39</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\Microservices\Basket\Basket.API\Controllers\BasketController.cs" initialLine="39" containingFunctionPresentation="method 'GetBasket'">
+            <startOffsets>
+              <option value="1293" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1350" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/BasketService.cs</url>
+          <line>31</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\WebApps\AspnetRunBasics\Services\BasketService.cs" initialLine="31" containingFunctionPresentation="method 'UpdateBasket'">
+            <startOffsets>
+              <option value="954" />
+            </startOffsets>
+            <endOffsets>
+              <option value="955" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApps/AspnetRunBasics/Services/BasketService.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\WebApps\AspnetRunBasics\Services\BasketService.cs" initialLine="34" containingFunctionPresentation="method 'UpdateBasket'">
+            <startOffsets>
+              <option value="1089" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1140" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApps/AspnetRunBasics/Extensions/HttpClientExtensions.cs</url>
+          <line>29</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\WebApps\AspnetRunBasics\Extensions\HttpClientExtensions.cs" initialLine="29" containingFunctionPresentation="method 'PutAsJson'">
+            <startOffsets>
+              <option value="1243" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1244" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApps/AspnetRunBasics/Extensions/HttpClientExtensions.cs</url>
+          <line>30</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\WebApps\AspnetRunBasics\Extensions\HttpClientExtensions.cs" initialLine="30" containingFunctionPresentation="method 'PutAsJson'">
+            <startOffsets>
+              <option value="1257" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1307" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Microservices/Basket/Basket.API/Controllers/BasketController.cs</url>
+          <line>52</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\Microservices\Basket\Basket.API\Controllers\BasketController.cs" initialLine="52" containingFunctionPresentation="method 'UpdateBasket'">
+            <startOffsets>
+              <option value="1761" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1762" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Microservices/Basket/Basket.API/Repositories/BasketRepository.cs</url>
+          <line>34</line>
+          <properties documentPath="C:\Users\moham\source\repos\newMicro\src\Microservices\Basket\Basket.API\Repositories\BasketRepository.cs" initialLine="34" containingFunctionPresentation="method 'UpdateBasket'">
+            <startOffsets>
+              <option value="1029" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1030" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="model" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -1,6 +1,8 @@
-﻿using AspnetRunBasics.Models;
+﻿using System;
+using AspnetRunBasics.Models;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Shopping.Aggregator.Extensions;
 
 namespace AspnetRunBasics.Services
 {
@@ -12,19 +14,27 @@ namespace AspnetRunBasics.Services
         {
             _client = client;
         }
-        public Task CheckoutBasket(BasketCheckoutModel model)
+
+        public async Task CheckoutBasket(BasketCheckoutModel model)
         {
-            throw new System.NotImplementedException();
+            var response = await _client.PostAsJson($"/basket/Checkout", model);
+            if (!response.IsSuccessStatusCode)
+                throw new Exception("Something went wrong");
         }
 
-        public Task<BasketModel> GetBasket(string userName)
+        public async Task<BasketModel> GetBasket(string userName)
         {
-            throw new System.NotImplementedException();
+            var response = await _client.GetAsync($"/Basket/{userName}");
+            return await response.ReadContentAs<BasketModel>();
         }
 
-        public Task<BasketModel> UpdateBasket(BasketModel model)
+        public async Task<BasketModel> UpdateBasket(BasketModel model)
         {
-            throw new System.NotImplementedException();
+            var response = await _client.PutAsJson($"/Basket", model);
+            if (response.IsSuccessStatusCode)
+                return await response.ReadContentAs<BasketModel>();
+            else
+                throw new Exception("Something went wrong");
         }
     }
 }

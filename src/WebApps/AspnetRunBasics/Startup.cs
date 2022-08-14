@@ -1,5 +1,3 @@
-using AspnetRunBasics.Data;
-using AspnetRunBasics.Repositories;
 using AspnetRunBasics.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

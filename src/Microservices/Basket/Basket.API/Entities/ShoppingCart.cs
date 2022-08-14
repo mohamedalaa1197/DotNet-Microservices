@@ -9,14 +9,15 @@ namespace Basket.API.Entities
     {
         public ShoppingCart()
         {
-
         }
+
         public ShoppingCart(string UserName)
         {
-
         }
+
         public string UserName { get; set; }
-        public ICollection<ShoppingCartItem> Items { get; set; }
+        public ICollection<ShoppingCartItem> Items { get; set; } = new List<ShoppingCartItem>();
+
         public double totalPrice
         {
             get
@@ -36,11 +37,11 @@ namespace Basket.API.Entities
                 {
                     total += item.Price * item.Quantity;
                 }
+
                 return total;
             }
+
             return 0;
         }
     }
-
-
 }

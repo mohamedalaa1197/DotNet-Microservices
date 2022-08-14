@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Shopping.Aggregator.Extensions;
 
 namespace AspnetRunBasics.Services
 {
@@ -13,9 +14,11 @@ namespace AspnetRunBasics.Services
         {
             _client = client;
         }
-        public Task<IEnumerable<OrderResponseModel>> GetOrdersByUserName(string userName)
+
+        public async Task<IEnumerable<OrderResponseModel>> GetOrdersByUserName(string userName)
         {
-            throw new System.NotImplementedException();
+            var response = await _client.GetAsync($"/Order/{userName}");
+            return await response.ReadContentAs<List<OrderResponseModel>>();
         }
     }
 }
